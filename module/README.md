@@ -1,5 +1,6 @@
 # module
-Модули node.js
+Модули node.js, изучаем exports и require.
+
 - в node.js любой JavaScript файл является модулем
 - у каждого модуля есть объект `exports`, который экспортирует значения из модуля
     - экспертируемые значения хранятся в свойства объекта exports
@@ -11,7 +12,7 @@
 
 Нам нужно из файла `main.js` получить доступ к этой переменной.
 
-## exports
+## exports (переменная)
 
 Файл second.js:
 
@@ -23,7 +24,7 @@
     console.log(second);   // { a: 5 }
     console.log(second.a); // 5
 
-## exports `функция`
+## exports (функция)
 
 Файл second.js:
 
